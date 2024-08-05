@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 2px 5px #089da1;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.nav .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .container .nav-logo {
+  height: 40px;
+}
+.nav .container .nav-logo img {
+  height: 100%;
+}
+.nav .container .nav-icons, .nav .container .nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav .container .nav-list {
+  gap: 20px;
+}
+.nav .container .nav-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+.nav .container .nav-icons {
+  gap: 10px;
+}
+.nav .container .nav-icons img {
+  height: 16px;
+}/*# sourceMappingURL=main.css.map */
